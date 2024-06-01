@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Coding Academy - Create an Account</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        min-height: 100vh;
+    }
+    
+    .left-section {
+        flex: 1;
+        background: url('classroom.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    
+    .right-section {
+        flex: 1;
+        padding: 40px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .header img {
+        width: 50px;
+        margin-right: 10px;
+    }
+    
+    .header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .checkbox-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .checkbox-container input {
+        margin-right: 10px;
+    }
+    
+    button {
+        padding: 15px;
+        background-color: #ff6600;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #e65c00;
+    }
+    
+    p {
+        margin-top: 20px;
+    }
+    
+    p a {
+        color: #ff6600;
+        text-decoration: none;
+    }
+    
+    p a:hover {
+        text-decoration: underline;
+    }
+</style>
+    <div class="container">
+        <div class="left-section">
+            <img src="Screenshot 2024-05-29 145023.png" alt="Classroom">
+        </div>
+        <div class="right-section">
+            <div class="header">
+                <img src="orange.jpg" alt="Orange">
+                <h1>Coding Academy</h1>
+                <style= height: </style>
+            </div>
+            <hr>
+            <h2>Create an account</h2>
+            <form>
+                <label for="email">Email address *</label>
+                <input type="email" id="email" name="email" placeholder="eg: username@domain.com" required>
+
+                <label for="mobile">Mobile *</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="eg: 077*******" required>
+
+                <label for="password">Create Password *</label>
+                <input type="password" id="password" name="password" placeholder="The Password should be between 6-18 characters." required>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">terms & conditions</a> Orange.</label>
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="newsletter" name="newsletter" checked>
+                    <label for="newsletter">Receive Coding Academy Newsletter.</label>
+                </div>
+
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="#">login</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
