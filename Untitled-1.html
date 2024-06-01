@@ -1,153 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orange Coding Academy - Create an Account</title> 
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/boosted.min.css" rel="stylesheet"
+        integrity="sha384-laZ3JUZ5Ln2YqhfBvadDpNyBo7w5qmWaRnnXuRwNhJeTEFuSdGbzl4ZGHAEnTozR" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/js/boosted.bundle.min.js"
+        integrity="sha384-3RoJImQ+Yz4jAyP6xW29kJhqJOE3rdjuu9wkNycjCuDnGAtC/crm79mLcwj1w2o/"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/boosted.min.css">
+    <title>orange</title>
 </head>
+
 <body>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .container {
-        display: flex;
-        min-height: 100vh;
-    }
-    
-    .left-section {
-        flex: 1;
-        background: url('classroom.jpg') no-repeat center center;
-        background-size: cover;
-    }
-    
-    .right-section {
-        flex: 1;
-        padding: 40px;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-    
-    .header img {
-        width: 50px;
-        margin-right: 10px;
-    }
-    
-    .header h1 {
-        font-size: 24px;
-        margin: 0;
-    }
-    
-    h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    label {
-        margin-bottom: 5px;
-        font-weight: bold;
-    }
-    
-    input[type="email"],
-    input[type="tel"],
-    input[type="password"] {
-        padding: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-    }
-    
-    .checkbox-container {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-    
-    .checkbox-container input {
-        margin-right: 10px;
-    }
-    
-    button {
-        padding: 15px;
-        background-color: #ff6600;
-        color: #fff;
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-    
-    button:hover {
-        background-color: #e65c00;
-    }
-    
-    p {
-        margin-top: 20px;
-    }
-    
-    p a {
-        color: #ff6600;
-        text-decoration: none;
-    }
-    
-    p a:hover {
-        text-decoration: underline;
-    }
-</style>
-    <div class="container">
-        <div class="left-section">
-            <img src="Screenshot 2024-05-29 145023.png" alt="Classroom">
-        </div>
-        <div class="right-section">
-            <div class="header">
-                <img src="orange.jpg" alt="Orange">
-                <h1>Coding Academy</h1>
-                <style= height: </style>
+    <div style="display: flex;width: 100%;height: 97vh;">
+        <div style="width: 40%;height: 100%;">
+            <div id="carouselExamplePause" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-action-bar">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExamplePause" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExamplePause" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="0"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#4bb4e6" /><text x="50%" y="50%" fill="#000"
+                                dy=".3em"><img src="Screenshot 2024-05-31 204353.png" alt=""></text>
+                        </svg>
+                    </div>
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="0"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#50be87" /><text x="50%" y="50%" fill="#000"
+                                dy=".3em"><img src="Screenshot 2024-05-31 204446.png" alt=""></text>
+                        </svg>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div style="width: 60%;height: 100%;">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="OIP.jpg" alt="" width="70wh" height="70vh"></a>
+                </li>
+                <li class="nav-item" style="display: flex;flex-direction: column;padding-top: 2vh;">
+                    <a class="nav-link" href="#">أكاديمية البرمجة</a>
+                    <a class="nav-link" href="#">Orange academy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="padding-top:3vh;padding-left: 35vh;">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="padding-top:3vh;">Terms & Conditiond</a>
+                </li>
+            </ul>
             <hr>
-            <h2>Create an account</h2>
-            <form>
-                <label for="email">Email address *</label>
-                <input type="email" id="email" name="email" placeholder="eg: username@domain.com" required>
-
-                <label for="mobile">Mobile *</label>
-                <input type="tel" id="mobile" name="mobile" placeholder="eg: 077*******" required>
-
-                <label for="password">Create Password *</label>
-                <input type="password" id="password" name="password" placeholder="The Password should be between 6-18 characters." required>
-
-                <div class="checkbox-container">
-                    <input type="checkbox" id="terms" name="terms" required>
-                    <label for="terms">I agree to the <a href="#">terms & conditions</a> Orange.</label>
+            <div style="width: 60%;margin: auto;">
+                <div class="container">
+                    <h1>Create an account </h1>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address <span
+                                style="color: orange;">*</span></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                        <div id="passwordHelpBlock" class="form-text">
+                            eg: username@domain.com
+                        </div><br>
+                    </div>
+                    <div class="container">
+                        <label for="inputPassword5" class="form-label"> Mobile <span
+                                style="color: orange;">*</span></label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                    </div>
+                    <div id="passwordHelpBlock" class="form-text">
+                        eg: 077*******
+                    </div><br><br>
+                    <div class="container">
+                        <label for="inputPassword5" class="form-label"> Create Password <span
+                                style="color: orange;">*</span></label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                    </div>
+                    <div id="passwordHelpBlock" class="form-text">
+                        Your password should be between 6-18 characters.
+                    </div><br><br>
+                    <div class="container">
+                        <input class="form-check-input" type="checkbox" id="requiredFieldsetCheck" required>
+                        <label class="form-check-label" for="requiredFieldsetCheck">Iagree to the terms & conditions
+                            Orange.<span class="visually-hidden"> (required)</span></label>
+                    </div><br><br>
+                    <div class="container">
+                        <input class="form-check-input" type="checkbox" id="requiredFieldsetCheck" required>
+                        <label class="form-check-label" for="requiredFieldsetCheck">Receive Coding Academy
+                            Newsletter<span class="visually-hidden"> (required)</span></label>
+                    </div><br><br>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button" style="color: white;">Sign Up</button><br>
+                        <button class="btn btn-primary" type="button"
+                            style="background-color: white;border:solid  black;">Already have an account?login</button>
+                    </div>
                 </div>
-
-                <div class="checkbox-container">
-                    <input type="checkbox" id="newsletter" name="newsletter" checked>
-                    <label for="newsletter">Receive Coding Academy Newsletter.</label>
-                </div>
-
-                <button type="submit">Sign Up</button>
-                <p>Already have an account? <a href="#">login</a></p>
-            </form>
+            </div>
         </div>
     </div>
+
 </body>
+
 </html>
